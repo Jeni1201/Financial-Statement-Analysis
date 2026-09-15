@@ -1,7 +1,7 @@
-# Financial-Statement-Analysis
+# Financial Statement Analysis Dashboard
 
 ### Project Overview
-Financial Statement Analysis Dashboard is built using SQL and Power BI to analyze revenue, profitability, asset utilization, financial health, and cash quality across 5 Indian Listed Companies ( FY2022 - FY2026).
+Financial Statement Analysis Dashboard is built using SQL and Power BI to analyze revenue, profitability, asset utilization, financial health, and cash quality across 5 Indian Listed Companies from FY2022 to FY2026.
 
 ### Business Objectives 
 - Compare financial performance across Companies.
@@ -10,7 +10,7 @@ Financial Statement Analysis Dashboard is built using SQL and Power BI to analyz
 - Assess earnings quality through cash flow analysis.
 - Present business insights through an interactive Power BI dashboard.
 
-### Tools 
+### Tools & Technologies 
 - Excel
 - SQL Server (SSMS)
 - Power BI
@@ -24,8 +24,9 @@ Financial Statement Analysis Dashboard is built using SQL and Power BI to analyz
 5. Tata Motors Passenger Vehicles
 
 ### Dataset scope
-Period covered (FY 2022 - FY 2026)
-5 companies * 5 years  = 25 records
+- Period covered (FY 2022 - FY 2026)
+- Companies Analyzed : 5
+- Total Records : 25
 
 The dataset covers 25 records of five Indian Listed Companies covering period FY2022 - FY2026.
 
@@ -38,10 +39,10 @@ Data Collection
                               → Business Insights
 
 ### Key Metrics
-- Profitability :- Net Profit Margin, EBITDA Margin
-- Efficiency :- Return on Equity (ROE), Return on Assets (ROA)
-- Financial Health :- Debt-to-Equity Ratio
-- Earnings Quality :- CFO-to-Profit Ratio
+- **Profitability** :- Net Profit Margin, EBITDA Margin
+- **Efficiency** :- Return on Equity (ROE), Return on Assets (ROA)
+- **Financial Health** :- Debt-to-Equity Ratio
+- **Earnings Quality** :- CFO-to-Profit Ratio
 
 ### Dashboard Structure
 | Page                            | Purpose                                                                                         |
