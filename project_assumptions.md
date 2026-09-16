@@ -36,29 +36,28 @@ Financial statement data for 5 Indian listed companies across FY2022–FY2026.
 
 # Business Rules & Assumptions
 
-#### Revenue
+### Revenue
 Revenue is mapped from the **Sales** line item reported by Screener.
 
-#### EBITDA
+### EBITDA
 Operating Profit is used as an EBITDA proxy.
 
-**Reason:**  
-Screener does not consistently provide EBITDA across all companies. Using Operating Profit ensures a consistent metric across the dataset.
+**Reason:**  Screener does not consistently provide EBITDA across all companies. Using Operating Profit ensures a consistent metric across the dataset.
 
-#### Equity
+### Equity
 Equity is defined as :  `Equity = Equity Capital + Reserves`
 
 This represents shareholders' net worth and is used for ROE calculations.
 
-#### Debt
+### Debt
 Debt is defined as :  `Debt = Borrowings`
 Other Liabilities are excluded because they contain operational and non-interest-bearing obligations that may distort leverage ratios.
 
-Examples include :-  Trade Payables ,  Deferred Tax Liabilities ,  Accrued Expenses
+Examples include :-  Trade Payables ,  Deferred Tax Liabilities ,  Accrued Expenses.
 
 Borrowings are used as reported by Screener. No adjustments were made to exclude potential lease liabilities in order to maintain consistency across companies.
 
-#### Banking-Specific Treatment
+### Banking-Specific Treatment
 - For banking institutions, Deposits are retained as a separate field.
 - Deposits represent the primary funding source of banks and are economically different from corporate borrowings.
 
@@ -72,16 +71,14 @@ Accounting equation used:
 `Assets = Equity + Liabilities`
 
 Wherein:
-Non-Banking Companies
+- Non-Banking Companies
 			`Liabilities = Borrowings + OtherLiabilities`
-Banking Companies
+- Banking Companies
 			`Liabilities = Borrowings + OtherLiabilities + Deposits`
 
 This approach allows a single validation process to be applied consistently across all companies.
 
 > Validation checks were performed to confirm balance sheet consistency before analysis.
-
-
 
 ---
 # Key Analysis Definitions
